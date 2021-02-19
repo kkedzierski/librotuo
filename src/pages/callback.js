@@ -1,6 +1,6 @@
 import React from 'react'
 import Callback from '../components/account/Callback'
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 
 
 const callback = () => {

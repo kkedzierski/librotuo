@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/librotuo",
   siteMetadata: {
     title: `Librotuo`,
     description: `Twoje ksiazki`,

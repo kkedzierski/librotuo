@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 import SEO from '../components/seo'
 import { login, isAuthenticated} from '../utils/auth'
 import Account from '../components/account/Account'
