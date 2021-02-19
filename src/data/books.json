@@ -1,0 +1,30 @@
+[
+    {
+        "img": "../assets/images/okladka-1.jpg",
+        "alt": "Czas odnaleziony",
+        "name": "Czas odnaleziony",
+        "button": "Otwórz książkę",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/qC7EAgAAQBAJ"
+    },
+    {
+        "img": "../assets/images/okladka-2.jpg",
+        "alt": "Biesy",
+        "name": "Biesy",
+        "button": "Otwórz książkę",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/AAI6BAAAQBAJ"
+    },
+    {
+        "img": "../assets/images/okladka-3.jpg",
+        "alt": "Duma i uprzedzenie",
+        "name": "Duma i uprzedzenie",
+        "button": "Otwórz książkę",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/G7UHEAAAQBAJ"
+    },
+    {
+        "img": "../assets/images/okladka-4.jpg",
+        "alt": "Sto lat samotności",
+        "name": "Sto lat samotności",
+        "button": "Otwórz książkę",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/OZTDAAAACAAJ"
+    }
+]
