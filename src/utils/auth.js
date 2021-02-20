@@ -62,8 +62,6 @@ const auth = isBrowser
 
   export const checkSession = (callback) => {
     const isLoggedIn = window.localStorage.getItem("isLoggedIn");
-    console.log( {isLoggedIn} );
-    console.log( user);
     if (isLoggedIn === "false" || isLoggedIn === null){
         callback();
     }

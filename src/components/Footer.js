@@ -15,7 +15,6 @@ const Footer = () => {
                         <a href="mailto:librotuo@gmail.com">
                             librotuo@gmail.com
                         </a>
-                        librotuo@gmail.com
                     </FooterLink>
                     <FooterLink to="/policy">Polityka prywatności</FooterLink>
                 </FooterLinkItems>
@@ -37,6 +36,7 @@ const Footer = () => {
 export default Footer
 
 const FooterContainer = styled.div`
+    margin: 0;
     padding: 5rem calc((100vw - 1100px) / 2);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -94,6 +94,7 @@ const FooterLink = styled.div`
         transition: 0.3s ease-out;
     }
     a{
+        display: flex;
         text-decoration: none;
         margin-bottom: 0.5rem;
         font-size: 14px;

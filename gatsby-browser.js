@@ -1,6 +1,5 @@
 import React from 'react';
 import { checkSession } from './src/utils/auth';
-import axios from 'axios';
 
 class SessionCheck extends React.Component{
     state = {
@@ -20,11 +19,6 @@ class SessionCheck extends React.Component{
         checkSession(this.handleCheckSession);
     }
 
-    componentDidMount = () => {
-        axios.get('/').then(response => {
-            console.log(response)
-        })
-    }
 
     render() {
         return (this.state.loading === false && (
