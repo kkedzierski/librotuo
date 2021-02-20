@@ -56,12 +56,11 @@ function getBestBooks(data){
 }
 
 const [bookDetails, setBookDetails] = useState();
-
+const [apiKey, setApiKey] = useState("AIzaSyDhRJe2nEkW1hfDn0ajPly6Mjb1NXRidQg");
 
 const handleBookJson = (selfLink) => {
-    console.log(bookDetails);
     if(selfLink){
-        axios.get(selfLink)
+        axios.get(`${selfLink}?q=&key=${apiKey}`)
         .then(res => {
             setBookDetails(res.data);
         }).catch(err => {

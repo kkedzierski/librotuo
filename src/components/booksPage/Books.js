@@ -13,10 +13,11 @@ function Books() {
     const [query, setQuery] = useState('');
     const [loading, setLoading] = useState(false);
     const [cards, setCards] = useState([]);
+    const [apiKey, setApiKey] = useState("AIzaSyDhRJe2nEkW1hfDn0ajPly6Mjb1NXRidQg");
 
     const handleSubmit = () => {
         setLoading(true);
-        axios.get(`https://www.googleapis.com/books/v1/volumes?q=${query}&maxResults=40`)
+        axios.get(`https://www.googleapis.com/books/v1/volumes?q=${query}&maxResults=40&key=${apiKey}`)
         .then(res => {
             if(res.data.items.length > 0){
                 setCards(res.data.items);
