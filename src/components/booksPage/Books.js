@@ -17,6 +17,7 @@ function Books() {
 
     const handleSubmit = () => {
         setLoading(true);
+        console.log(`https://www.googleapis.com/books/v1/volumes?q=${query}&country=US&maxResults=40&key=${apiKey}`);
         axios.get(`https://www.googleapis.com/books/v1/volumes?q=${query}&country=US&maxResults=40&key=${apiKey}`)
         .then(res => {
             if(res.data.items.length > 0){
