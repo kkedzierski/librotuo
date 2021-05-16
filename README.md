@@ -15,8 +15,8 @@
 
 ***
 
-After pull respository to open project on localhost write in console:
-`gatsby develop`
+After pull respository to open project on localhost write in console.:
+```gatsby develop````
 
 ### Project appearance
 
